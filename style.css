@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #EBE9E9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-navbar, footer{
+    background-image: linear-gradient(to right, #192BC2, #449DD1, #78C0E0);
+}
+
+.navbar-toggler{
+    background-color: #192BC2;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.navbar-toggler span + span{
+    display: block;
+    width: 30px;
+    height: 2px;
+    border: 1px;
+    background-color: white;
+}
+
+.navbar-toggler span + span + span{
+    margin-top: 4px;
+    width: 30px;
+}
+
+.navbar-toggler span + span + span + span{
+    width: 30px;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-family: Righteous;
+}
+
+.navbar-brand:hover{
+    color: #EBE9E9;
+}
+
+.navbar li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.section-title h1{
+    color: red;
+}
+
+.section-title h5{
+    color: #7D7C7A;
+}
+
+.section-kategori hr, .section-ubahpassword hr, .section-produk .tambah-produk, .section-produk .produk-terbaru, .section-detail-produk hr{
+    width: 250px;
+    border-top: 4px solid #313131;
+    opacity: 1;
+}
+
+.section-produk .edit-produk{
+    width: 200px;
+    border-top: 4px solid #313131;
+    opacity: 1;
+}
+
+.section-produk hr{
+    width: 150px;
+    border-top: 4px solid #313131;
+    opacity: 1;
+}
+
+.section-profil hr{
+    width: 100px;
+    border-top: 4px solid #313131;
+    opacity: 1;
+}
+
+.navbar li a, footer{
+    font-family: 'Montserrat', sans-serif;
+    color: #EBE9E9;
+}
+
+.section-title h1, .section-title h5, h2{
+    font-family: Righteous;
+}
+
+.img-header{
+    width: 200px;
+    border: 3px solid #313131;
+}
+
+.section-produk .img-produk-admin{
+    width: 200px;
+    border: 1px solid #313131;
+}
+
+.section-produk .card-img-top{
+    height: 20vw;
+    object-fit: cover;
+}
+
+.section-produk .harga, .section-detail-produk h4{
+    color: #449DD1;
+}
+
+.section-produk .card{
+    transition: 0.3s;
+}
+
+.section-produk .card:hover{
+    border-radius: 10px;
+    box-shadow: 14px 10px 30px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 14px 10px 30px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 10px 30px -3px rgba(0,0,0,0.75);
+}
+
+.section-detail-produk p{
+    text-align: justify;
+}

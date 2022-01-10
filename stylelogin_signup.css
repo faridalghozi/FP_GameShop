@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to right, #192BC2, #449DD1, #78C0E0);;
+}
+
+.container{
+    width: 40%;
+    margin-top: 10%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    background-color: #EBE9E9;
+    padding: 40px;
+}
+
+button{
+    width: 30%;
+}
+
+h4{
+    font-family: Righteous;
+}
+
+.hr-user{
+    width: 100px;
+    border-top: 4px solid;
+    opacity: 1;
+}
+
+.hr-admin{
+    width: 175px;
+    border-top: 4px solid;
+    opacity: 1;
+}
+
+form{
+    font-family: 'Montserrat', sans-serif;
+}
